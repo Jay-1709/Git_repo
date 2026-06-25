@@ -10,3 +10,11 @@ print(f"Non empty list: {non_empty_list}")
 #Adding empty list count
 empty_list_count = list_of_lists.count([])
 print(f"Number of empty list in list is {empty_list_count}")
+
+#Making a single List of Elements:
+New_list = []
+for item in non_empty_list:
+    for val in item:
+        New_list.append(val)
+
+print(f"New list: {New_list}")
