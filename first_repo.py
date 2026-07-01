@@ -2,7 +2,7 @@
 # Sample list containing lists
 list_of_lists = [[1, 2, 3], [], [4, 5], [], [6, 7, 8], []]
 
-#print(len(list_of_lists[2]))
+print(f"Original list is {list_of_lists}")
 
 non_empty_list = [val for val in list_of_lists if len(val) > 0]
 print(f"Non empty list: {non_empty_list}")
